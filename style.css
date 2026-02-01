@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.emi-calculator {
+    width: 420px;
+    padding: 25px;
+    border-radius: 15px;
+    background: #ffe5b4; /* light orange */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.emi-calculator h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.input-group span {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #111;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.result h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#emi-chart {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
